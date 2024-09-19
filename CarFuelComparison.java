@@ -1,7 +1,7 @@
 public class CarFuelComparison {
     
-        private String Car;
-        private double Fuel;
+        String Car;
+        double Fuel;
     
         public String getCarBrand(){
             return Car;
