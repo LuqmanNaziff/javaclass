@@ -1,7 +1,5 @@
-public class LoopsExcersice {
-    //int calories = 1000;
-    
-    
+public class DailyCalorieCounter {
+
     public static void main(String[] args) {
         String dayName;
         int calories;
@@ -59,4 +57,4 @@ public class LoopsExcersice {
 
 
         }
-    }
+}
