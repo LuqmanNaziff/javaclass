@@ -27,5 +27,6 @@ public class TwoDimentions {
                 System.out.println(number);
             }
         }
+
     }
 }

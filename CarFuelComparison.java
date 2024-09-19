@@ -20,17 +20,16 @@ public class CarFuelComparison {
      public static void main(String[] args){
     
         CarFuelComparison carUsage = new CarFuelComparison();
-    
-        double[][] Fuel = new double[3][3];
-        String[][] Car = new String[3][3];
-    
-        Car[0][0] = "Perodua Myvi"; Car[0][1] = "Perodua Kenari"; Car[0][2] = "Perodua Kelisa";
-        Car[1][0] = "Proton X70"; Car[1][1] = "Proton Exora"; Car[1][2] = "Proton Iriz";
-        Car[2][0] = "Volkswagen Scirocco"; Car[2][1] = "Volkswagen Beetle"; Car[2][2] = "Volkswagen Polo";
-    
-        Fuel[0][0] = 0.05; Fuel[0][1] = 0.033; Fuel[0][2] = 0.04;
-        Fuel[1][0] = 0.078; Fuel[1][1] = 0.076; Fuel[1][2] = 0.069;
-        Fuel[2][0] = 0.071; Fuel[2][1] = 0.067; Fuel[2][2] = 0.056;
+        
+        String[][] Car = {{"Perodua Myvi"},{"Perodua Kenari"},{"Perodua Kelisa"},
+                          {"Proton X70"},{"Proton Exora"},{"Proton Iriz"},
+                          {"Volkswagen Scirocco"},{"Volkswagen Beetle"},{"Volkswagen Polo"}
+        }; 
+
+        double[][] Fuel = {{0.05},{0.033},{0.04},
+        {0.078},{0.076},{0.069},
+        {0.071},{0.067},{0.056}
+        };
     
         for(int row = 0; row < Car.length; row++){
             for(int col = 0; col < Car[row].length; col++){
@@ -40,7 +39,5 @@ public class CarFuelComparison {
             }
         }
      }  
-    
-
-    
+ 
 }
