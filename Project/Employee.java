@@ -1,5 +1,3 @@
-package Project;
-
 public class Employee {
     String name;
     double baseSalary = 0;

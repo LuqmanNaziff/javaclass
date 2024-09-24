@@ -1,4 +1,3 @@
-package Project;
 import java.util.Scanner;
 public class EmployeeSystem {
     
@@ -14,7 +13,7 @@ public class EmployeeSystem {
 
             System.out.print("Base Salary: ");
             double baseSalary = scanner.nextDouble();
-
+            scanner.nextLine();
             employees[i] = new Employee(setName, baseSalary);
         }
 
